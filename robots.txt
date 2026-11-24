@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-davi-a-raimundo.netlify.app/sitemap.xml
