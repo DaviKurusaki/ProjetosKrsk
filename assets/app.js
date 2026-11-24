@@ -8,10 +8,9 @@ const waMsg = { pt: 'Olá Davi, vi seu portfólio e quero um orçamento de site.
 const T = {
 en: {
   skip:'Skip to content','nav.projects':'Projects','nav.services':'Services','nav.about':'About','nav.faq':'FAQ','nav.contact':'Get a quote',
-  'hero.where':'Web developer in Santa Bárbara d\'Oeste, Brazil','hero.title':'Custom websites, built with workshop precision.',
-  'hero.lead':'I\'m Davi Augusto Raimundo. Before code, I ran lathes and milling machines; today I work in production planning at a factory and build websites for local businesses. The rule is still the same: measure, check, then deliver.',
-  'hero.cta1':'Get a quote on WhatsApp','hero.cta2':'See projects','hero.c1':'4 years coding','hero.c2':'5 projects live','hero.c3':'reply within 24 h',
-  'stamp.a':'Drawing','stamp.av':'Portfolio','stamp.b':'Author','stamp.c':'Scale','stamp.cv':'1:1, phone to monitor','stamp.d':'Revision',
+  'hero.where':'Davi Augusto Raimundo, web developer','hero.title':'Fast, good-looking websites that help your business get found.',
+  'hero.lead':'I\'ve been coding for 5 years and I build websites, landing pages and NFC card pages that load fast on phones, show up on Google and take customers straight to your WhatsApp.',
+  'hero.cta1':'Get a quote on WhatsApp','hero.cta2':'See projects','hero.clients':'Live websites for','hero.and':'and',
   'proj.title':'Live projects','proj.sub':'Websites for real companies and games I made in college. Click a project to see its goal and tools.','proj.all':'All','proj.f1':'Business websites','proj.f2':'Web games','proj.f3':'Unity games','proj.empty':'No projects in this category yet.',
   'cat.site':'Business website','cat.web':'Web game','cat.unity':'Unity game',
   'p.porto.d':'Page opened by the company\'s NFC card, with services, contacts and catalog in one tap.','p.sist.d':'Digital card with save contact, WhatsApp, map directions and company socials.','p.parts.d':'Links hub in Portuguese and English, with per-department emails and PDF materials.',
@@ -22,22 +21,21 @@ en: {
   's2.t':'NFC card and links page','s2.d':'Customers tap the card with their phone and save your contact, open WhatsApp, the map and your catalog.','s2.a':'Save contact in one tap','s2.b':'Buttons for every channel','s2.c':'Also works with a QR code',
   's3.t':'Fixes and Google presence','s3.d':'Already have a site that is slow, broken on mobile or missing from search? I fix it.','s3.a':'Google Business Profile','s3.b':'Layout and speed fixes','s3.c':'Text and photo updates',
   'steps.title':'How it works','st1.t':'Talk','st1.d':'Tell me what you need on WhatsApp. I reply with timeline and price within 24 hours.','st2.t':'First version','st2.d':'I build the site with your text, photos and logo and send you a link to check on your phone.','st3.t':'Adjustments','st3.d':'You ask for changes and I fix them until it\'s right.','st4.t':'Live','st4.d':'I publish it, connect your domain if you have one and get it ready for Google.',
-  'about.title':'From lathe to code','about.p1':'I studied Machining at SENAI and worked running machines, where a tenth of a millimeter decides whether a part fits or gets scrapped. Today I work in production planning at an industrial seals company and study Digital Games at FATEC Americana.',
-  'about.p2':'I\'ve been coding for 4 years. I started by automating the factory\'s spreadsheets and controls, built a desktop production system in Electron and began making websites for local businesses. I also develop games in Unity and for the browser.','about.p3':'I like delivering things that work on day one and keep working on day one hundred.',
-  'sk.web':'Web','sk.sys':'Systems','sk.game':'Games','sk.lang':'Languages','sk.langv':'Native Portuguese, intermediate English','sk.gamev':'Unity 2D and 3D, C#, Blender, spritesheets, animation',
+  'about.title':'Who will build your site','about.p1':'I\'m Davi, I\'m 22 and I\'ve been coding since I was 17. I started by building small tools to solve everyday problems, and today I make websites for businesses, professionals and personal brands.',
+  'about.p2':'I use plain HTML, CSS and JavaScript when a project needs to be light, and React or Electron when it needs more. I\'m also studying Digital Games at FATEC Americana, where I build games in Unity and for the browser.','about.p3':'I take care of every site from the first sketch until it\'s live and showing up on Google, and I stay around after delivery.',
+  'sk.web':'Web','sk.sys':'Tools','sk.design':'Design','sk.designv':'Responsive interfaces, animation, image optimization','sk.game':'Games','sk.gamev':'Unity 2D and 3D, C#, Blender, spritesheets, animation',
   'rev.title':'People I\'ve worked with','r1':'“I really liked the way the project was handled. He was respectful, organized and brought creative ideas that greatly improved the final result.”','r1.role':'Parts Seals, links page','r2':'“An extremely attentive, creative and committed professional. He understood the proposal clearly and delivered a result far above expectations.”','r2.role':'Partner on the game Echo of the Veil',
   'faq.title':'Common questions','q1':'How much does a website cost?','a1':'It depends on size. A single page for a business or NFC card is the most affordable; multi-page sites cost more. Send me what you need and I\'ll reply with a price within 24 hours.',
   'q2':'How long does it take?','a2':'A single page is usually ready in 3 to 7 days after I receive text, photos and logo. Larger sites get a timeline in the quote.','q3':'Do I need to pay for hosting?','a3':'In most cases, no. Static sites are hosted for free on services like Netlify. The only extra cost is your own domain, if you want one.',
   'q4':'Do you work outside Santa Bárbara d\'Oeste?','a4':'Yes. In person in Santa Bárbara d\'Oeste, Americana and nearby, and remotely anywhere.','q5':'Is the site LGPD compliant?','a5':'Yes. Every site ships with a privacy policy and, if it uses analytics or forms, a consent notice.',
-  'ct.title':'Let\'s get your website off the drawing board','ct.sub':'Message me on WhatsApp with your company name and what you need. No commitment.','ct.wa':'Message on WhatsApp',
+  'ct.title':'Let\'s put your business on Google','ct.sub':'Message me on WhatsApp with your company name and what you need. No commitment.','ct.wa':'Message on WhatsApp',
   'ft.city':'Santa Bárbara d\'Oeste, Brazil.','ft.priv':'Privacy policy','cookie.t':'This site uses no tracking cookies. It only stores the language and theme you choose in your browser.','cookie.more':'Learn more','cookie.ok':'Got it'
 },
 es: {
   skip:'Saltar al contenido','nav.projects':'Proyectos','nav.services':'Servicios','nav.about':'Sobre mí','nav.faq':'Dudas','nav.contact':'Pedir presupuesto',
-  'hero.where':'Desarrollador web en Santa Bárbara d\'Oeste, Brasil','hero.title':'Sitios a medida, hechos con precisión de taller.',
-  'hero.lead':'Soy Davi Augusto Raimundo. Antes del código operé torno y fresadora; hoy trabajo en planificación de producción en una industria y creo sitios para empresas de la región. La regla sigue igual: medir, revisar y recién entonces entregar.',
-  'hero.cta1':'Pedir presupuesto por WhatsApp','hero.cta2':'Ver proyectos','hero.c1':'4 años programando','hero.c2':'5 proyectos online','hero.c3':'respuesta en 24 h',
-  'stamp.a':'Plano','stamp.av':'Portafolio','stamp.b':'Autor','stamp.c':'Escala','stamp.cv':'1:1, del celular al monitor','stamp.d':'Revisión',
+  'hero.where':'Davi Augusto Raimundo, desarrollador web','hero.title':'Sitios rápidos y bonitos, hechos para que encuentren tu empresa.',
+  'hero.lead':'Programo hace 5 años y creo sitios, landing pages y páginas para tarjeta NFC que cargan rápido en el celular, aparecen en Google y llevan al cliente directo a tu WhatsApp.',
+  'hero.cta1':'Pedir presupuesto por WhatsApp','hero.cta2':'Ver proyectos','hero.clients':'Sitios online para','hero.and':'y',
   'proj.title':'Proyectos online','proj.sub':'Sitios de empresas reales y juegos que hice en la facultad. Haz clic en un proyecto para ver su objetivo y herramientas.','proj.all':'Todos','proj.f1':'Sitios para empresas','proj.f2':'Juegos web','proj.f3':'Juegos Unity','proj.empty':'Todavía no hay proyectos en esta categoría.',
   'cat.site':'Sitio para empresa','cat.web':'Juego web','cat.unity':'Juego Unity',
   'p.porto.d':'Página que abre la tarjeta NFC de la empresa, con servicios, contactos y catálogo en un toque.','p.sist.d':'Tarjeta digital con guardar contacto, WhatsApp, ruta en el mapa y redes de la empresa.','p.parts.d':'Central de enlaces en portugués e inglés, con e-mails por sector y materiales en PDF.',
@@ -48,14 +46,14 @@ es: {
   's2.t':'Tarjeta NFC y página de enlaces','s2.d':'El cliente acerca el celular a la tarjeta y guarda tu contacto, abre WhatsApp, el mapa y el catálogo.','s2.a':'Guardar contacto en un toque','s2.b':'Botones para todos los canales','s2.c':'También funciona con código QR',
   's3.t':'Ajustes y presencia en Google','s3.d':'¿Tu sitio ya existe pero es lento, se rompe en el celular o no aparece en las búsquedas? Lo arreglo.','s3.a':'Perfil de empresa en Google','s3.b':'Corrección de diseño y velocidad','s3.c':'Actualización de textos y fotos',
   'steps.title':'Cómo funciona','st1.t':'Conversación','st1.d':'Me cuentas lo que necesitas por WhatsApp. Respondo con plazo y precio en 24 horas.','st2.t':'Primera versión','st2.d':'Armo el sitio con tus textos, fotos y logo y te envío un enlace para verlo en el celular.','st3.t':'Ajustes','st3.d':'Pides los cambios y los corrijo hasta que quede bien.','st4.t':'Online','st4.d':'Lo publico, lo conecto a tu dominio si tienes uno y lo dejo listo para Google.',
-  'about.title':'Del torno al código','about.p1':'Estudié Mecanizado en el SENAI y trabajé operando máquinas, donde una décima de milímetro decide si la pieza sirve o va a la basura. Hoy trabajo en planificación de producción en una industria de sellos y estudio Juegos Digitales en la FATEC Americana.',
-  'about.p2':'Programo hace 4 años. Empecé automatizando planillas y controles de la fábrica, creé un sistema de producción de escritorio en Electron y empecé a hacer sitios para empresas de la región. También desarrollo juegos en Unity y para navegador.','about.p3':'Me gusta entregar cosas que funcionan el primer día y siguen funcionando el día cien.',
-  'sk.web':'Web','sk.sys':'Sistemas','sk.game':'Juegos','sk.lang':'Idiomas','sk.langv':'Portugués nativo, inglés intermedio','sk.gamev':'Unity 2D y 3D, C#, Blender, spritesheets, animación',
+  'about.title':'Quién va a hacer tu sitio','about.p1':'Soy Davi, tengo 22 años y programo desde los 17. Empecé creando pequeñas herramientas para resolver problemas del día a día y hoy hago sitios para empresas, profesionales y marcas personales.',
+  'about.p2':'Uso HTML, CSS y JavaScript puros cuando el proyecto pide liviandad, y React o Electron cuando pide más. También estudio Juegos Digitales en la FATEC Americana, donde desarrollo juegos en Unity y para navegador.','about.p3':'Me ocupo de cada sitio desde el primer boceto hasta que está online y aparece en Google, y sigo cerca después de la entrega.',
+  'sk.web':'Web','sk.sys':'Herramientas','sk.design':'Diseño','sk.designv':'Interfaces responsivas, animaciones, optimización de imágenes','sk.game':'Juegos','sk.gamev':'Unity 2D y 3D, C#, Blender, spritesheets, animación',
   'rev.title':'Quién ya trabajó conmigo','r1':'“Me gustó mucho la forma en que condujo el proyecto. Fue respetuoso, organizado y aportó ideas creativas que valoraron mucho el resultado final.”','r1.role':'Parts Seals, página de enlaces','r2':'“Un profesional extremadamente atento, creativo y comprometido. Entendió la propuesta con claridad y entregó un resultado muy por encima de lo esperado.”','r2.role':'Compañero en el juego Eco del Velo',
   'faq.title':'Dudas comunes','q1':'¿Cuánto cuesta un sitio?','a1':'Depende del tamaño. Una página única para empresa o tarjeta NFC es lo más económico; los sitios con varias páginas cuestan más. Envíame lo que necesitas y respondo con el precio en 24 horas.',
   'q2':'¿En cuánto tiempo está listo?','a2':'Una página única suele estar lista en 3 a 7 días después de recibir textos, fotos y logo. Los sitios más grandes tienen el plazo en el presupuesto.','q3':'¿Tengo que pagar hosting?','a3':'En la mayoría de los casos, no. Los sitios estáticos se alojan gratis en servicios como Netlify. El único costo aparte es el dominio propio, si quieres uno.',
   'q4':'¿Atiendes fuera de Santa Bárbara d\'Oeste?','a4':'Sí. Presencial en Santa Bárbara d\'Oeste, Americana y región, y a distancia en cualquier lugar.','q5':'¿El sitio cumple la LGPD?','a5':'Sí. Todo sitio sale con política de privacidad y, si usa analítica o formularios, con aviso de consentimiento.',
-  'ct.title':'¿Sacamos tu sitio del papel?','ct.sub':'Escríbeme por WhatsApp con el nombre de tu empresa y lo que necesitas. Sin compromiso.','ct.wa':'Escribir por WhatsApp',
+  'ct.title':'¿Ponemos tu empresa en Google?','ct.sub':'Escríbeme por WhatsApp con el nombre de tu empresa y lo que necesitas. Sin compromiso.','ct.wa':'Escribir por WhatsApp',
   'ft.city':'Santa Bárbara d\'Oeste, Brasil.','ft.priv':'Política de privacidad','cookie.t':'Este sitio no usa cookies de seguimiento. Solo guarda en tu navegador el idioma y el tema que elijas.','cookie.more':'Saber más','cookie.ok':'Entendido'
 }};
 
@@ -134,3 +132,13 @@ if (!store.get('aviso-ok')) $('#aviso').hidden = false;
 $('#aviso-ok').onclick = () => { $('#aviso').hidden = true; store.set('aviso-ok', '1'); };
 
 $('#ano').textContent = new Date().getFullYear();
+
+/* ---------- profundidade no hero (só mouse, respeita reduzir movimento) ---------- */
+const stage = $('#stage');
+if (stage && matchMedia('(pointer: fine) and (prefers-reduced-motion: no-preference)').matches) {
+  $('.hero').addEventListener('pointermove', e => {
+    const r = stage.getBoundingClientRect();
+    stage.style.setProperty('--mx', ((e.clientX - r.left) / r.width - .5).toFixed(3));
+    stage.style.setProperty('--my', ((e.clientY - r.top) / r.height - .5).toFixed(3));
+  });
+}
